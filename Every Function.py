@@ -1,0 +1,23 @@
+#exersice 3.9
+languages=["C","Python","VB.Net","Java"]
+language_pop=languages.pop()
+print(languages)
+languages.append("html")
+languages.remove("VB.Net")
+languages.insert(2,"CSS")
+del languages[2]
+print(languages)
+print(len(languages))
+print("sorted list")
+print(sorted(languages))
+print("original list")
+print(languages)
+print("reverse lisr")
+languages.reverse()
+print(languages)
+print("Sorted list")
+languages.sort()
+print(languages)
+print("reverse sorted list")
+languages.sort(reverse=True)
+print(languages)
